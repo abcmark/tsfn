@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #000000;
+  background-color: #cccccc;
+}
+
+a{}
+a:visited{color:#8B5DFF;}
+a:hover{color:#FF8CE8;}
+a.white:hover img{
+  filter: alpha(opacity=60);
+  opacity:0.6;
+} 
+
+
+h1{background:#ffffff;padding:6px;margin:8px 0 8px 0; #6AAAEC;height:24px;font-size:16px;color:#000000;} /*各コンテンツのタイトル部分 上、右、下、左*/
+
+
+/*メインブロックのスタイルです*/ 
+#main{width:800px;background:#fff;text-align:left;}
+#inbox{overflow:hidden;padding:0 10px;marigin:0 10px;}
+#inbox p{padding:10px 0;margin:10px 0;line-height:160%;}
+.box{padding:0 10px;margin:0 10px;}
+.top{} /*角丸部分のスタイルです*/ 
+.bottom{} /*角丸部分のスタイルです*/ 
