@@ -19,8 +19,10 @@
       $(function() {
       $("a").click(function(e) {
       var ahref = jQuery(this).attr('href');
-      if(ahref.indexOf("http://px.a8.net") != -1) {
-      ga('send', 'event', 'affiliate', 'a8', location.href);
+      if(ahref.indexOf("http://px.a8.net/svt/ejp?a8mat=2HDPU9+XY0AI+2VOI+609HT") != -1) {
+      ga('send', 'event', 'affiliate', 'gaisyutu', 1);
+      } else if(ahref.indexOf("http://px.a8.net/svt/ejp?a8mat=2HDPU9+XY12A+2VOI+5YJRM") != -1) {
+      ga('send', 'event', 'affiliate', 'gaisyutu', 2);
       }});});
       </script>
   </head>
